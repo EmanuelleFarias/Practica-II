@@ -4,10 +4,10 @@ while True:
         print('※ Para iniciar ingrese un número entero.\n※ Para finalizar ingrese 0.')
         num = int(input('\n▸▸ Tu elección es: '))
     except ValueError:
-        print('\n✕ Opção inválida. ✕ Elige un número entero, por favor.\n')
+        print('\n✕ Opción inválida. ✕ Elige un número entero, por favor.\n')
         continue
     if num < 0:
-        print('\n✕ Opção inválida. ✕ Elige un número entero positivo, por favor.\n')
+        print('\n✕ Opción inválida. ✕ Elige un número entero positivo, por favor.\n')
         continue
     if num == 0:
         print('\n ▲ Programa finalizado ▲\n\n{:⊹^50}\n'.format(' ⊹⋒ ¡Hasta pronto! ⋒⊹ '))
